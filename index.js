@@ -26,10 +26,10 @@ function isPalindrome(str) {
 console.log("Problem-3: ", isPalindrome("madam"));
 
 // Problem 4: Find the Maximum Number
-// Write a function that takes an array of numbers and returns the largest number.
-// Example:
-// Input: [5, 1, 9, 3]
-// Output: 9
+function findMax(arr) {
+  return Math.max(...arr);
+}
+console.log("Problem-4: ", findMax([5, 1, 9, 3]));
 
 // Problem 5: Remove Duplicates from an Array
 // Write a function that removes all duplicate numbers from an array.
