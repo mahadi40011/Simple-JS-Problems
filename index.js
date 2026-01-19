@@ -32,10 +32,10 @@ function findMax(arr) {
 console.log("Problem-4: ", findMax([5, 1, 9, 3]));
 
 // Problem 5: Remove Duplicates from an Array
-// Write a function that removes all duplicate numbers from an array.
-// Example:
-// Input: [1, 2, 2, 3, 4, 4]
-// Output: [1, 2, 3, 4]
+function removeDuplicates(arr) {
+  return [...new Set(arr)];
+}
+console.log("Problem-5: ", removeDuplicates([1, 2, 2, 3, 4, 4]));
 
 // Problem 6: Sum of All Numbers in an Array
 // Write a function that returns the sum of all numbers in an array.
