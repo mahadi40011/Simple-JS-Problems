@@ -38,10 +38,10 @@ function removeDuplicates(arr) {
 console.log("Problem-5: ", removeDuplicates([1, 2, 2, 3, 4, 4]));
 
 // Problem 6: Sum of All Numbers in an Array
-// Write a function that returns the sum of all numbers in an array.
-// Example:
-// Input: [1, 2, 3, 4]
-// Output: 10
+function sumOfArray(arr) {
+  return arr.reduce((total, num) => total + num, 0);
+}
+console.log("Problem-6: ", sumOfArray([1, 2, 3, 4]));
 
 // Problem 7: Find Even Numbers in an Array
 // Write a function that returns all even numbers from a given array.
