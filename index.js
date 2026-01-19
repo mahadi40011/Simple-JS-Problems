@@ -44,10 +44,10 @@ function sumOfArray(arr) {
 console.log("Problem-6: ", sumOfArray([1, 2, 3, 4]));
 
 // Problem 7: Find Even Numbers in an Array
-// Write a function that returns all even numbers from a given array.
-// Example:
-// Input: [1, 2, 3, 4, 5, 6]
-// Output: [2, 4, 6]
+function findEven(arr) {
+  return arr.filter((num) => num % 2 === 0);
+}
+console.log("Problem-7: ", findEven([1, 2, 3, 4, 5, 6]));
 
 // Problem 8: Capitalize First Letter of Each Word
 // Write a function that capitalizes the first letter of each word in a string.
