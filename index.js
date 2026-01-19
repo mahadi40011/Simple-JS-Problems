@@ -19,12 +19,11 @@ function countVowels(str) {
 console.log("Problem-2: ", countVowels("programming"));
 
 // Problem 3: Check for Palindrome
-// Write a function that checks if a string is a palindrome (reads the same forward and backward).
-// Example:
-// Input: "madam"
-// Output: true
-// Input: "hello"
-// Output: false
+function isPalindrome(str) {
+  let reversed = str.split("").reverse().join("");
+  return str === reversed;
+}
+console.log("Problem-3: ", isPalindrome("madam"));
 
 // Problem 4: Find the Maximum Number
 // Write a function that takes an array of numbers and returns the largest number.
